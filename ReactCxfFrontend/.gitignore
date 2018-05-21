@@ -9,8 +9,9 @@
 
 # production
 /build
-/src/main/webapp
-!/src/main/webapp/WEB-INF
+src/main/webapp/static
+src/main/webapp/*.*
+!src/main/webapp/WEB-INF
 
 # misc
 .DS_Store
